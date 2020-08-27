@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background: #81E4DA;
+}
+
+header {
+  text-align: center;
+  border: 4px solid #40798C;
+  margin: 10px;
+  padding: 10px;
+  max-width: 600px
+}
+/* futura for all titles, helvetica for all paragraphs/smaller stuff */
+h1, h2, h3 {
+  font-family: Futura, sans-serif;
+  color: #1F363D;
+}
+
+nav, p, ol, ul {
+  font-family: Helvetica, sans-serif;
+  color: #1F363D;
+  font-size: 14px
+}
+/* keep main padding equal to size of picture
+but smaller than the header going across
+want to give feeling of centering without actually centering main section
+ */
+
+main {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 10px;
+  max-width: 400px
+}
+
+a:link    { color: #1F363D;  }
+a:visited { color: #40798C;   }
+a:hover   { color: #40798C; }
+a:active  { color: #9EC1A3;  }
+
+/* all text same color, all borders and <hr> same color */
+
+.pic-border {
+  border: 2px solid #40798C;
+}
+
+hr {
+  height: 3px;
+  border: 2px solid #40798C; 
+  background-color: #1F363D;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 10px;
+  max-width: 400px;
+  font-family: Futura, sans-serif;
+  color: #1F363D
+}
